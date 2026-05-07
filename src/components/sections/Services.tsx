@@ -40,8 +40,8 @@ export const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <FadeUp key={index} delay={index * 0.1}>
-              <div className="group relative p-10 rounded-3xl bg-card-surface border border-border-color hover:border-accent-gold/50 transition-colors duration-500 overflow-hidden">
+            <FadeUp key={index} delay={index * 0.1} className="h-full">
+              <div className="group relative p-10 rounded-3xl bg-card-surface border border-border-color hover:border-accent-gold/50 transition-colors duration-500 overflow-hidden h-full">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="text-accent-soft-gold mb-8 w-fit origin-left group-hover:scale-110 group-hover:text-accent-gold transition-all duration-500">

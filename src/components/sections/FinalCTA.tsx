@@ -7,12 +7,12 @@ export const FinalCTA = () => {
     <section className="relative py-40 flex items-center justify-center overflow-hidden bg-background-primary">
       {/* Deep Base Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-background-secondary to-background-primary" />
-      
+
       {/* Luxurious Glow Layers */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         {/* Top Left Gold Glow */}
         <div className="absolute -top-[40%] -left-[20%] w-[70%] h-[100%] bg-accent-gold/5 rounded-full blur-[120px] mix-blend-screen" />
-        
+
         {/* Center Spotlight */}
         <div className="absolute top-[10%] left-[20%] w-[60%] h-[80%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent-soft-gold/10 via-transparent to-transparent blur-[80px]" />
 
