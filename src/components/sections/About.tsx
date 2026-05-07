@@ -45,7 +45,8 @@ export const About = () => {
           </div>
 
           <div className="w-full lg:w-1/2">
-            <FadeUp delay={0.3}>
+            <div className="max-w-md mx-auto lg:mr-auto lg:ml-0">
+              <FadeUp delay={0.3}>
               <span className="text-accent-gold text-sm tracking-widest uppercase mb-4 block">The Artist</span>
               <h2 className="text-4xl md:text-5xl font-heading mb-8">Crafting light and shadow into timeless narratives.</h2>
               <div className="space-y-6 text-text-secondary font-light">
@@ -72,6 +73,7 @@ export const About = () => {
                 <div className="text-xs uppercase tracking-wider text-text-secondary">Awards Won</div>
               </div>
             </FadeUp>
+            </div>
           </div>
 
         </div>
