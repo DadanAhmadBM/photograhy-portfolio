@@ -27,7 +27,7 @@ export const About = () => {
   return (
     <section id="about" className="py-32 bg-background-secondary relative overflow-hidden">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row gap-20 items-center justify-center">
+        <div className="flex flex-col lg:flex-row gap-16 lg:gap-32 items-center justify-center">
           
           <div className="w-full lg:w-1/2 relative">
             <FadeUp delay={0.2}>
