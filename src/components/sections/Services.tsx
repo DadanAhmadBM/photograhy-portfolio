@@ -44,10 +44,10 @@ export const Services = () => {
               <div className="group relative p-10 rounded-3xl bg-card-surface border border-border-color hover:border-accent-gold/50 transition-colors duration-500 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 flex flex-col h-full">
-                  <div className="text-accent-soft-gold mb-8 group-hover:scale-110 group-hover:text-accent-gold transition-all duration-500">
+                  <div className="text-accent-soft-gold mb-8 w-fit origin-left group-hover:scale-110 group-hover:text-accent-gold transition-all duration-500">
                     {service.icon}
                   </div>
-                  <h3 className="text-2xl font-heading mb-4 text-text-primary">{service.title}</h3>
+                  <h3 className="text-2xl font-heading font-normal mb-4 text-text-primary">{service.title}</h3>
                   <p className="text-text-secondary font-light leading-relaxed">
                     {service.description}
                   </p>
