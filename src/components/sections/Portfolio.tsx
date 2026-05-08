@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FadeUp } from '../ui/FadeUp';
-import { X } from 'lucide-react';
+import { Maximize2, X } from 'lucide-react';
+import portfolio1 from '../../assets/portfolio-1.jpg';
+import portfolio2 from '../../assets/portfolio-2.jpg';
+import portfolio3 from '../../assets/portfolio-3.jpg';
+import portfolio4 from '../../assets/portfolio-4.jpg';
+import portfolio5 from '../../assets/portfolio-5.jpg';
+import portfolio6 from '../../assets/portfolio-6.jpg';
 
 const categories = ['All', 'Wedding', 'Portrait', 'Fashion', 'Travel', 'Event'];
 
 const portfolioItems = [
-  { id: 1, category: 'Wedding', src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80', title: 'Elegance in White' },
-  { id: 2, category: 'Fashion', src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80', title: 'Editorial Chic' },
-  { id: 3, category: 'Portrait', src: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80', title: 'Shadows & Light' },
-  { id: 4, category: 'Travel', src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80', title: 'Mountain Peaks' },
-  { id: 5, category: 'Wedding', src: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80', title: 'Golden Hour Vows' },
-  { id: 6, category: 'Event', src: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80', title: 'Symphony Lights' },
+  { id: 1, category: 'Wedding', src: portfolio1, title: 'Elegance in White' },
+  { id: 2, category: 'Fashion', src: portfolio2, title: 'Editorial Chic' },
+  { id: 3, category: 'Portrait', src: portfolio3, title: 'Shadows & Light' },
+  { id: 4, category: 'Travel', src: portfolio4, title: 'Mountain Peaks' },
+  { id: 5, category: 'Wedding', src: portfolio5, title: 'Golden Hour Vows' },
+  { id: 6, category: 'Event', src: portfolio6, title: 'Symphony Lights' },
 ];
 
 export const Portfolio = () => {

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { FadeUp } from '../ui/FadeUp';
-import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { Quote, ChevronLeft, ChevronRight } from 'lucide-react';
+import testimonial1 from '../../assets/testimonial-1.jpg';
+import testimonial2 from '../../assets/testimonial-2.jpg';
+import testimonial3 from '../../assets/testimonial-3.jpg';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const testimonials = [
@@ -9,21 +12,21 @@ const testimonials = [
     quote: "The photos captured the essence of our day perfectly. Every time we look at them, we are transported back to those incredible moments. Truly cinematic and breathtaking.",
     author: "Elena & Marcus",
     role: "Wedding Clients",
-    image: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=150&h=150"
+    image: testimonial1,
   },
   {
     id: 2,
     quote: "Working with this studio elevated our brand's visual identity completely. The attention to detail, lighting, and mood is unmatched in the industry.",
     author: "Sarah Jenkins",
     role: "Creative Director, Vogue",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150"
+    image: testimonial2,
   },
   {
     id: 3,
     quote: "An absolute masterclass in visual storytelling. The portraits they took for my personal branding are striking, moody, and deeply authentic.",
     author: "David Chen",
     role: "Entrepreneur",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150"
+    image: testimonial3,
   }
 ];
 

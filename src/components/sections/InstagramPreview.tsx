@@ -1,12 +1,16 @@
 import { FadeUp } from '../ui/FadeUp';
 import { Button } from '../ui/Button';
 import { InstagramIcon } from '../ui/Icons';
+import insta1 from '../../assets/insta-1.jpg';
+import insta2 from '../../assets/insta-2-new.jpg';
+import insta3 from '../../assets/insta-3.jpg';
+import insta4 from '../../assets/insta-4.jpg';
 
 const posts = [
-  'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1510007553175-7171ea13e8b0?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1533423996375-f914ab160932?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80',
+  insta1,
+  insta2,
+  insta3,
+  insta4,
 ];
 
 export const InstagramPreview = () => {
