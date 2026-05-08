@@ -72,6 +72,7 @@ export const Portfolio = () => {
                     alt={item.title} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-background-primary/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                     <span className="text-accent-gold text-sm font-medium tracking-wider uppercase mb-2">{item.category}</span>

@@ -36,6 +36,8 @@ export const About = () => {
                   src={aboutImage} 
                   alt="Photographer Portrait" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 border border-border-color rounded-2xl" />
               </div>
