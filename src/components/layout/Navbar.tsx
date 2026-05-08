@@ -52,6 +52,7 @@ export const Navbar = () => {
           <button
             className="md:hidden text-text-primary focus:outline-none"
             onClick={() => setIsMobileMenuOpen(true)}
+            aria-label="Open mobile menu"
           >
             <Menu size={24} />
           </button>
@@ -71,6 +72,7 @@ export const Navbar = () => {
             <button
               className="absolute top-6 right-6 text-text-primary focus:outline-none"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-label="Close mobile menu"
             >
               <X size={32} />
             </button>

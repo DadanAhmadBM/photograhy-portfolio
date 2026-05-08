@@ -98,6 +98,7 @@ export const Portfolio = () => {
             <button 
               className="absolute top-6 right-6 text-text-primary hover:text-accent-gold transition-colors focus:outline-none"
               onClick={() => setSelectedImage(null)}
+              aria-label="Close lightbox"
             >
               <X size={32} />
             </button>

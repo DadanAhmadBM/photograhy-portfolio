@@ -68,6 +68,8 @@ export const Testimonials = () => {
                     src={testimonials[currentIndex].image} 
                     alt={testimonials[currentIndex].author}
                     className="w-14 h-14 rounded-full object-cover border border-border-color"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="text-left">
                     <h4 className="font-medium text-text-primary">{testimonials[currentIndex].author}</h4>
@@ -81,12 +83,14 @@ export const Testimonials = () => {
           <div className="flex justify-center gap-4 mt-8">
             <button 
               onClick={prev}
+              aria-label="Previous testimonial"
               className="p-3 rounded-full border border-border-color hover:border-accent-gold text-text-secondary hover:text-accent-gold transition-colors focus:outline-none"
             >
               <ChevronLeft size={20} />
             </button>
             <button 
               onClick={next}
+              aria-label="Next testimonial"
               className="p-3 rounded-full border border-border-color hover:border-accent-gold text-text-secondary hover:text-accent-gold transition-colors focus:outline-none"
             >
               <ChevronRight size={20} />

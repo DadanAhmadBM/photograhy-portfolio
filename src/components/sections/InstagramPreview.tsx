@@ -33,11 +33,13 @@ export const InstagramPreview = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {posts.map((src, index) => (
             <FadeUp key={index} delay={index * 0.1}>
-              <a href="#" className="block relative group aspect-square overflow-hidden rounded-xl">
+              <a href="#" aria-label={`View Instagram Post ${index + 1}`} className="block relative group aspect-square overflow-hidden rounded-xl">
                 <img 
                   src={src} 
                   alt={`Instagram Post ${index + 1}`} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-background-primary/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <InstagramIcon size={32} className="text-white" />
